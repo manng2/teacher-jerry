@@ -1,6 +1,7 @@
+import { PROMPT } from "../constants/prompt.constant";
 import { DictionaryArrModel } from "../models";
 import { findRandomByRange } from "../utils/common.util";
-import { sendTelegramResponse } from "../utils/telegram.util";
+import { sendMessage } from "../utils/telegram.util";
 
 export async function handlePractice(chatId: number, dictionaryArr: DictionaryArrModel[], token: string) {
 	const targetIdx = findRandomByRange(0, dictionaryArr.length - 1);
@@ -25,7 +26,7 @@ export async function handlePractice(chatId: number, dictionaryArr: DictionaryAr
 	const answerIdx = answerOrder - 1;
 
 	console.log('Preparing to send message:::::');
-	return sendTelegramResponse(chatId, dictionaryArr[targetIdx][1].meaning, token, {
+	return sendMessage(chatId, dictionaryArr[targetIdx][1].meaning, token, {
 		reply_markup: JSON.stringify({
 			inline_keyboard: [
 				[
@@ -35,6 +36,25 @@ export async function handlePractice(chatId: number, dictionaryArr: DictionaryAr
 						callback_data: dictionaryArr[targetIdx][0],
 					},
 					...inlineKeyboard.slice(answerIdx),
+				],
+			],
+		}),
+	});
+}
+
+export async function askForContinue(chatId: number, token: string) {
+	return sendMessage(chatId, PROMPT.DO_YOU_WANT_TO_CONTINUE, token, {
+		reply_markup: JSON.stringify({
+			inline_keyboard: [
+				[
+					{
+						text: PROMPT.YES,
+						callback_data: PROMPT.YES,
+					},
+					{
+						text: PROMPT.NO,
+						callback_data: PROMPT.NO,
+					},
 				],
 			],
 		}),

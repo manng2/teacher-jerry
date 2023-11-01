@@ -1,8 +1,15 @@
-name = "worker-tight-cherry-8847"
+name = "teacher-jerry"
 main = "src/index.ts"
 compatibility_date = "2023-10-29"
-usage_model = "bundled"
-env = { }
+vars = { BOT_TOKEN = "6776053860:AAHAHf09ewxCayKihcmK5HvoFsEEmvQdRlI" }
 
 [triggers]
 crons = [ ]
+
+[env.dev]
+name = "teacher-jerry-dev"
+vars = { BOT_TOKEN = "6776053860:AAHAHf09ewxCayKihcmK5HvoFsEEmvQdRlI" }
+
+[env.staging]
+name = "teacher-jerry-staging"
+vars = { BOT_TOKEN = "6776053860:AAHAHf09ewxCayKihcmK5HvoFsEEmvQdRlI" }
