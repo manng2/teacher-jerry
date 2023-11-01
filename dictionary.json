@@ -1,0 +1,123 @@
+{
+  "Blameless": {
+    "meaning": "not responsible for anything bad",
+    "examples": ["The accident was caused by a blameless driver."],
+    "type": "adj"
+  },
+  "Noted": {
+    "meaning": "known by many people, especially because of particular qualities",
+    "examples": ["She's not noted for her patience."],
+    "type": "adj"
+  },
+  "Arrogant": {
+    "meaning": "behaving in an unpleasant or rude way because you think you are more important than other people",
+    "examples": ["an arrogant smile"],
+    "type": "adj"
+  },
+  "Sacristy": {
+    "meaning": "a room in a church where the priest puts on his special clothes and where things used in the church services are kept",
+    "examples": ["The priest was in the sacristy preparing for the service."],
+    "type": "n"
+  },
+  "Dreadful": {
+    "meaning": "very bad or unpleasant",
+    "examples": [
+      "The weather's been dreadful all week.",
+      "The food was absolutely dreadful."
+    ],
+    "type": "adj"
+  },
+  "Immoderate": {
+    "meaning": "not sensible or controlled; excessive",
+    "examples": ["immoderate drinking"],
+    "type": "adj"
+  },
+  "Cozy": {
+    "meaning": "comfortable and pleasant, especially (of a building) because of being small and warm",
+    "examples": ["a cozy room/house", "a cozy little restaurant"],
+    "type": "adj"
+  },
+  "Squander": {
+    "meaning": "to waste money, time, etc. in a stupid or careless way",
+    "examples": ["He squandered all his money on gambling."],
+    "type": "v"
+  },
+  "Perception": {
+    "meaning": "a belief or opinion, often held by many people and based on how things seem",
+    "examples": ["public perceptions of the government's performance"],
+    "type": "n"
+  },
+  "Squabble": {
+    "meaning": "a noisy argument, especially about something very unimportant",
+    "examples": ["a family squabble"],
+    "type": "n"
+  },
+  "Vague": {
+    "meaning": "not clear in a person's mind",
+    "examples": [
+      "I do have a vague memory of meeting her many years ago.",
+      "I have only a vague idea of what she does for a living."
+    ],
+    "type": "adj"
+  },
+  "Squash": {
+    "meaning": "to press something into a flatter shape",
+    "examples": ["Squash the potatoes with a fork."],
+    "type": "v"
+  },
+  "Indisputable": {
+    "meaning": "that cannot be questioned or doubted",
+    "examples": ["indisputable evidence"],
+    "type": "adj"
+  },
+  "Highbrow": {
+    "meaning": "intelligent and well educated; interested in serious art, literature, etc.",
+    "examples": ["a highbrow novel"],
+    "type": "adj"
+  },
+  "Well timed": {
+    "meaning": "happening at the best possible moment",
+    "examples": ["a well-timed intervention"],
+    "type": "adj"
+  },
+  "Gratuity": {
+    "meaning": "a small amount of money that you give to somebody who has provided you with a service",
+    "examples": ["The bill includes a 10% gratuity."],
+    "type": "n"
+  },
+  "Abundant": {
+    "meaning": "more than enough; plentiful",
+    "examples": ["an abundant supply of food"],
+    "type": "adj"
+  },
+  "Misconceive": {
+    "meaning": "to form a wrong idea of something",
+    "examples": ["The public has misconceived the nature of the research."],
+    "type": "v"
+  },
+  "Ecstasy": {
+    "meaning": "a feeling of extreme happiness",
+    "examples": ["She was in ecstasy when she heard she'd won."],
+    "type": "n"
+  },
+  "Magistrate": {
+    "meaning": "a person who acts as a judge in a law court that deals with crimes that are less serious",
+    "examples": ["a lay magistrate"],
+    "type": "n"
+  },
+  "Eager": {
+    "meaning": "very interested and excited by something that is going to happen or about something that you want to do",
+    "examples": ["eager crowds", "eager to do something"],
+    "type": "adj"
+  },
+  "Crusade": {
+    "meaning": "a long and determined attempt to achieve something that you believe to be right or to stop something that you believe to be wrong",
+    "examples": ["a crusade against crime"],
+    "type": "n"
+  },
+  "Neutral": {
+    "meaning": "not supporting either side in an argument, contest, war, etc.",
+    "examples": ["neutral territory"],
+    "type": "adj"
+  }
+}
